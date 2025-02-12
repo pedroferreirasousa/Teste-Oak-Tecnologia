@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body{
+    background: rgba(40,39,39,1);
+    color: #dedede;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+#form-container{
+    margin-top: 8vh;
+    width: 50vw;
+    max-width: 400px;
+}
+
+#form-container h2{
+    color: rgb(215, 250, 248);
+    letter-spacing: 1px;
+}
+
+form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+input{
+    padding: 10px;
+    max-width: 400px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+input:focus, textarea:focus, select:focus{
+    border-color: rgb(215, 250, 248) ;
+    outline: none;
+    box-shadow: 0 0 5px rgba(1, 255, 255, 0.7); 
+}
+
+select{
+    padding: 10px;
+    max-width: 400px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+select option{
+    font-size: 16px;
+}
+
+.btn-cadastro{
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    background-color: rgb(215, 250, 248);
+    border-radius: 10px;
+}
+
+.btn-cadastro:hover{
+    background-color: rgb(78, 243, 235) ;
+    box-shadow: 1px 1px 9px rgba(52, 248, 238, 0.493);
+}
+
+
+.CadastrarNovoProduto{
+    width: 400px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    background-color: rgb(215, 250, 248);
+    border-radius: 10px;
+}
+
+.CadastrarNovoProduto:hover{
+    background-color: rgb(78, 243, 235) ;
+    box-shadow: 1px 1px 9px rgba(52, 248, 238, 0.493);
+}
+
+
+/* ESTILOS DA TABELA */
+
+.table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8vh;
+    width: 50vw;
+}
+
+.table h2{
+    color: rgb(215, 250, 248);
+    letter-spacing: 1px;
+}
+
+table{
+    margin-top: 20px;
+}
+
+thead{
+    background-color: rgba(42, 220, 226, 0.61);
+    color: #dedede;
+    font-size: 16px;
+}
+
+thead tr th{
+    width: 400px;
+    padding: 10px;
+}
+
+td{
+    background-color: #dedede;
+    color: #000;
+    font-size: 20px;
+}
